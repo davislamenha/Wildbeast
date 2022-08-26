@@ -1,0 +1,15 @@
+.anuncios {
+  grid-area: anuncio;
+  background-color: #fafbfc;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-content: flex-start;
+  padding: 3rem;
+  gap: 3rem;
+}
+.anuncio-item a:hover {
+  opacity: 0.7;
+}
+.anuncio-item img {
+  border-radius: 5px;
+}

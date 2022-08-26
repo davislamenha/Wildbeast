@@ -1,0 +1,37 @@
+header {
+  grid-area: header;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 3rem;
+}
+header .logo {
+  max-width: 200px;
+}
+.menu-header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.menu-header li a {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.menu-header li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  header {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    padding: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .menu-header li a {
+    padding: 0.5rem 1rem;
+  }
+}

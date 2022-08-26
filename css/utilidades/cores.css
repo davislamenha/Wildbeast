@@ -1,0 +1,25 @@
+:root {
+  --preto: #000;
+  --branco: #fff;
+
+  --p01: #b07dfb;
+  --p02: #8844ee;
+}
+
+.preto {
+  color: var(--preto);
+}
+.branco {
+  color: var(--branco);
+}
+
+.p1 {
+  color: var(--p01);
+}
+.p2 {
+  color: var(--p02);
+}
+
+.preto-2 {
+  color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,23 @@
+/* =========== GLOBAL =========== */
+@import "./global/global.css";
+
+/* =========== ULTILIDADES =========== */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/utilitarios.css";
+
+/* =========== LANDING PAGE =========== */
+/* =========== HEADER =========== */
+@import "./landing/header.css";
+
+/* =========== SIDENAV =========== */
+@import "./landing/sidenav.css";
+
+/* =========== CONTEUDO =========== */
+@import "./landing/conteudo.css";
+
+/* =========== ANUNCIO =========== */
+@import "./landing/anuncio.css";
+
+/* =========== FOOTER =========== */
+@import "./landing/footer.css";
